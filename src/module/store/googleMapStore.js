@@ -26,7 +26,6 @@ const googleMap = {
   actions: {
     getGoogleMapAPI({ commit }, location = "13.803181,100.5393292") {
       return Service.googleMapAPI.getGoogleMapAPI(location).then(res => {
-        console.log(res);
         commit("SET_RESTAURANT_DATA", res);
       });
     }
