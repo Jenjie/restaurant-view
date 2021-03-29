@@ -1,22 +1,17 @@
 <template>
   <div>
-      can not template
+    can not template
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-
-    },
-      data(){
-        return {
-        }
-      },
-      methods:{
-
-      }
-  }
+  components: {},
+  data() {
+    return {};
+  },
+  methods: {}
+};
 </script>
