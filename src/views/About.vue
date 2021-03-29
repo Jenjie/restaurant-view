@@ -13,7 +13,7 @@
     </div>
     <template v-for="(data,key)in result">
       <div class="row" v-bind:key="key">
-        <template v-for="(item,index) in data">
+        <template v-for="(item, index) in data">
           <div class="col-4" v-bind:key="index">
             <v-card class="mx-auto my-12" max-width="374">
               <template v-if="item.photos && item.photos[0].photo_reference">
