@@ -98,7 +98,6 @@ export default {
       this.$store.dispatch("GoogleMap/getGoogleMapAPI", this.location);
     },
     getAddressData: function(addressData) {
-      console.log(addressData);
       this.location = addressData.latitude + "," + addressData.longitude;
       this.getGoogleMapAPI();
     }
