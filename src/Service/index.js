@@ -1,4 +1,4 @@
-import googleMapAPI from "./api/googleMapAPI"
+import googleMapAPI from "./api/googleMapAPI";
 export default {
-    googleMapAPI
-}
+  googleMapAPI
+};

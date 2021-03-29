@@ -5,9 +5,9 @@ import createPersistedState from "vuex-persistedstate";
 import googleMap from "../module/store/googleMapStore";
 Vue.use(Vuex);
 const modules = {
-    GoogleMap : googleMap,
+  GoogleMap: googleMap
 };
 export default new Vuex.Store({
-    modules,
-    plugins: [createPersistedState()]
+  modules,
+  plugins: [createPersistedState()]
 });
