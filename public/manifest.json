@@ -1,6 +1,6 @@
 {
-  "name": "resume-view",
-  "short_name": "resume-view",
+  "name": "restaurant-view",
+  "short_name": "restaurant-view",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
